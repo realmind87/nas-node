@@ -30,7 +30,7 @@ let url = ""
 // development
 app.use(
   cors({
-    origin: ["http://192.168.219.103:3000", 'http://112.157.157.231:3000', 'http://www.deepandeast.com:3000', 'http://deepandeast.com:3000', 'http://www.eastzero-blog.com', 'http://www.eastzero-blog.com:3000', 'http://eastzero-blog.com', 'http://eastzero-blog.com:3000'],
+    origin: ["http://192.168.219.104:3000", "http://192.168.219.103:3000", 'http://112.157.157.231:3000', 'http://www.deepandeast.com:3000', 'http://deepandeast.com:3000', 'http://www.eastzero-blog.com', 'http://www.eastzero-blog.com:3000', 'http://eastzero-blog.com', 'http://eastzero-blog.com:3000'],
     credentials: true,
   })
 );
